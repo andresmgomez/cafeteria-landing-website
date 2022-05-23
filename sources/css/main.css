@@ -39,7 +39,7 @@ body {
 }
 
 a {
-   text-decoration: none;
+   text-decoration: none !important;
 }
 
 h1,
@@ -159,6 +159,84 @@ footer {
 /* Sets color for active link inside navbar */
 .header-area .top-navbar .nav li a.active {
    color: #96510c  !important;
-   text-decoration: none
 }
+
+/***************************/
+/* 03. Hero Area
+/***************************/
+
+.hero-area {
+   padding-top: 100px;
+}
+
+.hero-area .col-lg-4,
+.hero-area .col-lg-8 {
+   padding: 0px;
+}
+
+.hero-area .left-hero {
+   background-image: radial-gradient(
+      rgba(186, 109, 21, 0.8), 
+      rgba(234, 148, 27, 0.80)), 
+      url(../../assets/img/hero-bg-left.jpeg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   width: 510px;
+   height: 620px;
+}
+
+.left-hero .heading-hero {
+   position: absolute;
+   top: 50%;
+   left: 40%;
+   transform: translate(-40%, -50%);
+}
+
+.heading-hero h1 {
+   font-family: 'Dancing Script', cursive;
+   color: #fff;
+   font-size: 54px;
+   font-weight: 700;
+}
+
+.heading-hero h3 {
+   margin-top: 5px;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 600;
+   letter-spacing: 3px;
+   text-transform: lowercase;
+}
+
+.left-hero .cta-btn a {
+   display: inline-block;
+   margin-top: 20px;
+   padding: 12px 25px;
+   background-color: #fff;
+   color: #96510c ;
+   font-weight: 600;
+   border-radius: 3px;
+   transition: all 0.3s;
+}
+
+.left-hero .cta-btn a:hover {
+   opacity: 0.9;
+}
+
+.right-hero .fill-image {
+   position: relative;
+   text-align: center;
+   overflow: hidden;
+}
+
+.right-hero .fill-image img {
+   width: 100%;
+   max-height: 620px;
+   display: inline-block;
+   position: relative;
+}
+
+
 
