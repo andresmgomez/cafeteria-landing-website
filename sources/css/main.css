@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+/* CSS Properties used: 
+/* -webkit-font-smoothing - allows web fonts to be scaled on different browsers
+/* z-index - sets which CSS property goes in front or behind
+/* last-child: selector that targets the last element of the list
+/* :hover - pseudo class that starts when user mouseover on element
+/* :active - pseudo class that starts after user clicks on a link 
+*/
+
 /***************************/
 /* 01. Global CSS
 /***************************/
@@ -72,3 +80,85 @@ section,
 footer {
    display: block;
 }
+
+/***************************/
+/* 02. Header Area
+/***************************/
+.header-area {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   height: 100px;
+   z-index: 99;
+}
+
+.header-area .top-navbar {
+   min-height: 80px;
+   background: transparent;
+}
+
+.header-area .top-navbar .logo {
+   color: #fff;
+   float: left;
+   line-height: 100px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.header-area .top-navbar .main-logo {
+   padding-top: 40px;
+   color: #96510c;
+   font-family: 'Dancing Script', Arial, sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   letter-spacing: 3px;
+   text-transform: capitalize;
+}
+
+.header-area .top-navbar .nav {
+   margin-top: 30px;
+   margin-right: 0px;
+   float: right;
+   background-color: transparent;
+   position: relative;
+   z-index: 100;
+}
+
+.header-area .top-navbar .nav li {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.header-area .top-navbar .nav li:last-child {
+   padding-right: 0px;
+}
+
+.header-area .top-navbar .nav li a {
+   display: block;
+   height: 40px;
+   color: #2a2a2a;
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: capitalize;
+   line-height: 40px;
+   border: transparent;
+   letter-spacing: 1px;
+   /* Chrome browser compatibility */
+   -webkit-transition: all .25s ease;
+   /* Mozilla browser compatibility */
+   -moz-transition: all .25s ease;
+   /* Opera browser compatibility */
+   -o-transition: all .25s ease;
+   /* Other browser compatibility */
+   transition: all .25s ease;
+}
+
+/* Sets color for all the navbar links */
+.header-area .top-navbar .nav li:hover a,
+/* Sets color for active link inside navbar */
+.header-area .top-navbar .nav li a.active {
+   color: #96510c  !important;
+   text-decoration: none
+}
+
