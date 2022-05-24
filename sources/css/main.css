@@ -81,6 +81,34 @@ footer {
    display: block;
 }
 
+/*---------------------------*/
+/* Utility Classes
+/*---------------------------*/
+.left-content {
+   margin-bottom: 25px;
+}
+
+.left-content p {
+   margin-bottom: 25px;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.heading-section h2 {
+   padding: 0px 50px 20px 0px;
+}
+
+.heading-section h4 {
+   padding: 15px 0 15px 20px;
+   color: #96510c;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.right-content {
+   margin-left: 30px;
+}
+
 /***************************/
 /* 02. Header Area
 /***************************/
@@ -238,5 +266,23 @@ footer {
    position: relative;
 }
 
+/***************************/
+/* 04. About Area
+/***************************/
+
+.about-area {
+   margin-top: 20px;
+   padding: 100px 0;
+}
+
+.about-area img {
+   width: 100%;
+   border: 5px solid #ddd;
+}
+
+.preview-image img {
+   height: 360px;
+   border: none;
+}
 
 
