@@ -13,9 +13,10 @@ An stylish design for a deluxe local cafeteria that uses Bootstrap for its prima
  
 ### Site Structure and Design
 
-- HTML5 and CSS3
-- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Bootstrap
-- [Fontawesome](https://fontawesome.com/v4/icons/) - Fontawesome Icons
+- [HTML5](https://www.tutorialspoint.com/html5/html5_quick_guide.htm) - Web Structure 
+- [CSS3](https://www.tutorialspoint.com/css/css3_tutorial.htm) - Web Design
+- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Bootstrap v4.5 Layout
+- [Fontawesome](https://fontawesome.com/v4/icons/) - Fontawesome v4.7 Font Icons
 
 ### CSS Animations
 
