@@ -189,6 +189,24 @@ footer {
    color: #96510c  !important;
 }
 
+/*---------------------------
+/* Sticky Navbar
+/*-------------------------*/
+
+.scroll-header {
+   position: fixed !important;
+   height: 80px !important;
+   margin: 0 6%;
+   top: 0;
+   left: 0;
+   right: 0;
+   background-color: #faf6f6 !important;
+}
+
+.scroll-header .logo {
+   margin-top: -10px !important;
+}
+
 /***************************/
 /* 03. Hero Area
 /***************************/
@@ -253,6 +271,74 @@ footer {
    opacity: 0.9;
 }
 
+/*------------------------
+/* Hero Slider Images
+/*----------------------*/
+
+.wide-slider .item > div {
+   vertical-align: middle;
+}
+
+.wide-slider .item.slick-active {
+   animation: Slick-FastSwipeIn 1s both;
+}
+
+.wide-slider .NextArrow {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-25px);
+   right: 30px;
+   width: 50px;
+   height: 50px;
+   background-color: transparent;
+   border: 0 none;
+   line-height: 44px;
+   border-radius: 50%;
+   text-align: center;
+   font-size: 36px;
+   font-family: 'FontAwesome';
+   color: transparent;
+   z-index: 5;
+   outline: none;
+   opacity: 0.3;
+   transition: all .3s;
+}
+
+.wide-slider .NextArrow:hover {
+   opacity: 1;
+}
+.wide-slider .NextArrow:before {
+   content: '\f105';
+}
+
+.wide-slider .PrevArrow {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-25px);
+   right: 30px;
+   width: 50px;
+   height: 50px;
+   background-color: transparent;
+   border: 0 none;
+   line-height: 44px;
+   border-radius: 50%;
+   text-align: center;
+   font-size: 36px;
+   font-family: 'FontAwesome';
+   color: transparent;
+   z-index: 5;
+   outline: none;
+   opacity: 0.3;
+   transition: all .3s;
+}
+
+.wide-slider .PrevArrow:hover {
+   opacity: 1;
+}
+.wide-slider .PrevArrow:before {
+   content: '\f104';
+}
+	
 .right-hero .fill-image {
    position: relative;
    text-align: center;
@@ -261,7 +347,7 @@ footer {
 
 .right-hero .fill-image img {
    width: 100%;
-   max-height: 620px;
+   height: 620px;
    display: inline-block;
    position: relative;
 }
@@ -356,6 +442,7 @@ footer {
    background-size: cover;
    background-repeat: no-repeat;
    overflow: hidden;
+   border-radius: 8px;
    border: 1px solid rgba(189, 103, 18, 0.8);
 }
 
