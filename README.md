@@ -1,6 +1,6 @@
 ## Coffee Landing Site
 
-An stylish design for a deluxe local cafeteria that uses Bootstrap for its primary layout. So far the only <em>working breakpoint is on a <strong>Laptop</strong device.</em>
+An stylish design for a deluxe local cafeteria that uses Bootstrap for its primary layout. So far the only <em>working breakpoint is on a <strong>Laptop</strong> device.</em>
 
 ### Features
   
