@@ -189,6 +189,24 @@ footer {
    color: #96510c  !important;
 }
 
+/*---------------------------
+/* Sticky Navbar
+/*-------------------------*/
+
+.scroll-header {
+   position: fixed !important;
+   height: 80px !important;
+   margin: 0 6%;
+   top: 0;
+   left: 0;
+   right: 0;
+   background-color: #faf6f6 !important;
+}
+
+.scroll-header .logo {
+   margin-top: -10px !important;
+}
+
 /***************************/
 /* 03. Hero Area
 /***************************/

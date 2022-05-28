@@ -1,6 +1,17 @@
 (function ($) {
 	'use strict';
-	// Hero Images Slick Slider
+	// Top Navbar Scrolling Header
+	var scrollFromTop = $(window).scrollTop();
+	var displayHeader = $('show-header').height();
+	var headerSection = $('header').height();
+
+	if (scrollFromTop >= displayHeader - headerSection) {
+		$('header').addClass('scroll-header');
+	} else {
+		$('header').removeClass('scroll-header');
+	}
+
+	// Hero Images Slick Effect
 	$('.wide-slider').slick({
 		autoplay: true,
 		autoplaySpeed: 4000,
@@ -14,7 +25,7 @@
 		prevArrow: '<button class="PrevArrow"></button>',
 		nextArrow: '<button class="NextArrow"></button>',
 	});
-
+	// Pastrie Cards Carousel Effect
 	$('.carousel-cards').owlCarousel({
 		items: 4,
 		loop: true,
