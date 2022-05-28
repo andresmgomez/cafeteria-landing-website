@@ -1,5 +1,15 @@
 (function ($) {
 	'use strict';
+	// Smooth Scroll Site Sections
+	var scroll = new SmoothScroll('a[href*="#"]', {
+		options: {
+			speed: 2000,
+			speedAsDuration: true,
+			easing: 'easeOutCubic',
+			clip: true,
+		},
+	});
+
 	// Top Navbar Scrolling Header
 	var scrollFromTop = $(window).scrollTop();
 	var displayHeader = $('show-header').height();
