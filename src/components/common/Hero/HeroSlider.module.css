@@ -1,0 +1,63 @@
+.heroSlider .item > div {
+   vertical-align: middle;
+}
+
+.heroSlider .item.slickActive {
+   animation: Slick-FastSwipeIn 1s both;
+}
+
+.heroSlider .NextArrow {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-25px);
+   right: 30px;
+   width: 50px;
+   height: 50px;
+   background-color: transparent;
+   border: 0 none;
+   line-height: 44px;
+   border-radius: 50%;
+   text-align: center;
+   font-size: 36px;
+   font-family: 'FontAwesome';
+   color: transparent;
+   z-index: 5;
+   outline: none;
+   opacity: 0.3;
+   transition: all .3s;
+}
+
+.heroSlider .NextArrow:hover {
+   opacity: 1;
+}
+.heroSlider .NextArrow:before {
+   content: '\f105';
+}
+
+.heroSlider .PrevArrow {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-25px);
+   right: 30px;
+   width: 50px;
+   height: 50px;
+   background-color: transparent;
+   border: 0 none;
+   line-height: 44px;
+   border-radius: 50%;
+   text-align: center;
+   font-size: 36px;
+   font-family: 'FontAwesome';
+   color: transparent;
+   z-index: 5;
+   outline: none;
+   opacity: 0.3;
+   transition: all .3s;
+}
+
+.heroSlider .PrevArrow:hover {
+   opacity: 1;
+}
+.heroSlider .PrevArrow:before {
+   content: '\f104';
+}
