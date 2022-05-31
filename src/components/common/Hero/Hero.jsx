@@ -6,11 +6,7 @@ import styling from './HeroSlider.module.css';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
-import heroPicture1 from '../../../assets/img/hero-bg-1.jpeg';
-import heroPicture2 from '../../../assets/img/hero-bg-2.jpeg';
-import heroPicture3 from '../../../assets/img/hero-bg-3.jpeg';
-import heroPicture4 from '../../../assets/img/hero-bg-4.jpeg';
+import siteImages from '../../../constants/siteImages';
 
 export function HeroComponent() {
 	const settings = {
@@ -45,7 +41,7 @@ export function HeroComponent() {
 								<div className='item'>
 									<div className={`${classes.fillPicture}`}>
 										<img
-											src={heroPicture1}
+											src={siteImages.placeImage1}
 											alt='Local people discovering our exclusive coffee place.'
 										/>
 									</div>
@@ -53,7 +49,7 @@ export function HeroComponent() {
 								<div className='item'>
 									<div className={`${classes.fillPicture}`}>
 										<img
-											src={heroPicture2}
+											src={siteImages.placeImage2}
 											alt='Barista serving our deluxe coffee in delicate cups.'
 										/>
 									</div>
@@ -61,7 +57,7 @@ export function HeroComponent() {
 								<div className='item'>
 									<div className={`${classes.fillPicture}`}>
 										<img
-											src={heroPicture3}
+											src={siteImages.placeImage3}
 											alt='Glamorous lady enjoying our coconut cream machiatto.'
 										/>
 									</div>
@@ -69,7 +65,7 @@ export function HeroComponent() {
 								<div className='item'>
 									<div className={`${classes.fillPicture}`}>
 										<img
-											src={heroPicture4}
+											src={siteImages.placeImage4}
 											alt='Another lady enjoying our coffee cream capuccino cup.'
 										/>
 									</div>
