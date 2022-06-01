@@ -4,7 +4,7 @@ import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 import classes from './About.module.css';
 import siteImages from '../../constants/siteImages';
-import previewImage from '../../assets/img/about-bg-preview.jpeg';
+import previewImage from '../../assets/img/background/about-bg-preview.jpeg';
 
 export function AboutComponent() {
 	return (

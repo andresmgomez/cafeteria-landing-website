@@ -4,7 +4,7 @@
 			rgba(194, 151, 20, 0.85),
 			rgba(239, 206, 86, 0.9)
 		),
-		url(../../assets//img/pastries-bg.jpeg);
+		url(../../assets/img/background/pastries-bg.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -44,6 +44,7 @@
 
 .card:hover .pastrieInfo,
 .card:hover .pastrieInfo:before {
+	cursor: pointer;
 	padding-bottom: 15px;
 	transform: translateY(100px);
 }
