@@ -1,0 +1,100 @@
+.pastriesArea {
+	padding: 100px 0;
+	background-image: radial-gradient(
+			rgba(194, 151, 20, 0.85),
+			rgba(239, 206, 86, 0.9)
+		),
+		url(../../assets//img/pastries-bg.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.pastriesArea .mainHeading {
+	margin: 0 auto;
+	padding-bottom: 40px;
+	max-width: 500px;
+	text-align: center;
+}
+
+.pastriesArea .mainHeading h2 {
+	padding-left: 30px;
+	font-size: 28px;
+	color: #faf6f6;
+}
+
+.pastriesArea .mainHeading h4 {
+	padding: 15px 0 15px 20px;
+	color: #96510c;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.card {
+	margin: 0 auto;
+	max-width: 280px;
+	min-height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	border-radius: 8px;
+	border: 1px solid rgba(189, 103, 18, 0.8);
+}
+
+.card:hover .pastrieInfo,
+.card:hover .pastrieInfo:before {
+	padding-bottom: 15px;
+	transform: translateY(100px);
+}
+
+.pastrie1 {
+	background-image: url(../../assets/img/pastries/pastrie-1.jpeg);
+}
+
+.pastrie2 {
+	background-image: url(../../assets/img/pastries/pastrie-2.jpeg);
+}
+.pastrie3 {
+	background-image: url(../../assets/img/pastries/pastrie-3.jpeg);
+}
+
+.pastrie4 {
+	background-image: url(../../assets/img/pastries/pastrie-4.jpeg);
+}
+
+.pastriePrice h6 {
+	position: absolute;
+	top: 0;
+	right: 29px;
+	width: 70px;
+	height: 70px;
+	background-color: #ffcf49;
+	color: #96510c;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 3px;
+}
+
+.pastrieInfo {
+	position: relative;
+	width: 100%;
+	background-color: #ffcf49;
+	transform: translateY(115%) translateY(120px);
+	transition: transform 0.5s ease-out;
+}
+
+.pastrieInfo .pastrieName {
+	margin: 0;
+	padding: 30px 30px 20px 30px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #96510c;
+}
+
+.pastrieInfo .pastrieDescription {
+	padding: 0px 30px;
+	color: #2a2a2a;
+}
