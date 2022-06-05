@@ -1,0 +1,111 @@
+.contactArea {
+	padding: 100px 0;
+	background-color: #2a2a2a;
+	color: #faf6f6;
+}
+
+.contactSection {
+	max-width: 550px;
+	padding-bottom: 40px;
+}
+
+.contactSection h4 {
+	padding: 15px 0 15px 20px;
+	color: #ffcf49;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.contactSection h2 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.contactSection p {
+	margin-top: 15px;
+	color: #faf6f6;
+}
+
+.placeLocation .fontContacts,
+.placePhone .fontContacts {
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding-left: 15px;
+	color: #96510c;
+	border-radius: 5px;
+}
+
+.placeLocation h4,
+.placePhone h4 {
+	padding: 20px 15px;
+	color: #ffcf49;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.placeLocation span a,
+.placePhone span a {
+	margin-left: 20px;
+	padding-top: 30px;
+	font-size: 17px;
+	color: #faf6f6;
+	transition: all 0.3s ease-in;
+}
+
+.contactForm {
+	margin-left: 50px;
+	padding: 45px 30px;
+	background-color: #faf6f6;
+	border-radius: 5px;
+}
+
+.contactForm h4 {
+	margin-bottom: 30px;
+	text-align: center;
+	color: #96510c;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.contactForm input,
+.contactForm textarea,
+.contactForm select {
+	margin-bottom: 15px;
+	padding-top: 3px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 100%;
+	height: 46px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	color: #2a2a2a;
+	border-radius: 5px;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.contactForm textarea {
+	height: 150px;
+	resize: none;
+	padding: 20px;
+}
+
+.contactForm .contactButton {
+	margin-top: -5px;
+	padding: 12px 25px;
+	width: 100%;
+	font-size: 15px;
+	font-weight: 700;
+	background-color: #96510c;
+	border: 1px solid #96510c;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+.contactForm .contactButton:hover {
+	cursor: pointer;
+	opacity: 0.9;
+}

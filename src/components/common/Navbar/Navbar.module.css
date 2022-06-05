@@ -1,0 +1,70 @@
+.navbarArea {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	z-index: 99;
+}
+
+.navbarArea .topNavbar {
+	min-height: 80px;
+	background: transparent;
+}
+
+.navbarArea .topNavbar .logo {
+	color: #fff;
+	float: left;
+	line-height: 100px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.navbarArea .topNavbar .mainLogo {
+	padding-top: 40px;
+	color: #96510c;
+	font-family: 'Dancing Script', Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-transform: capitalize;
+}
+
+.navbarArea .topNavbar .nav {
+	margin-top: 30px;
+	margin-right: 0px;
+	float: right;
+	background-color: transparent;
+	position: relative;
+	z-index: 100;
+}
+
+.navbarArea .topNavbar .nav li {
+	display: inline-block;
+	padding: 15px;
+}
+
+.navbarArea .topNavbar .nav li:last-child {
+	padding-right: 0px;
+}
+
+.navbarArea .topNavbar .nav li a {
+	display: block;
+	height: 40px;
+	color: #2a2a2a;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 40px;
+	border: transparent;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+.navbarArea .topNavbar .nav li:hover a,
+.navbarArea .topNavbar .nav li a.active {
+	color: #96510c !important;
+}
