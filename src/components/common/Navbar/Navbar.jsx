@@ -1,9 +1,9 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import classes from './Header.module.css';
+import classes from './Navbar.module.css';
 
-export function HeaderComponent() {
+export function NavbarComponent() {
 	return (
-		<header className={`${classes.headerArea}`}>
+		<section className={`${classes.navbarArea}`}>
 			<Container>
 				<Row>
 					<Col md={12}>
@@ -31,6 +31,6 @@ export function HeaderComponent() {
 					</Col>
 				</Row>
 			</Container>
-		</header>
+		</section>
 	);
 }

@@ -1,5 +1,6 @@
 import './App.css';
-import { HeaderComponent } from './components/Common/Header/Header';
+
+import { NavbarComponent } from './components/Common/Navbar/Navbar';
 import { HeroComponent } from './components/Common/Hero/Hero';
 import { AboutComponent } from './components/About/About';
 import { PastriesComponent } from './components/Pastries/Pastries';
@@ -8,7 +9,9 @@ import { ContactComponent } from './components/Common/Contact/Contact';
 function App() {
 	return (
 		<>
-			<HeaderComponent />
+			<header>
+				<NavbarComponent />
+			</header>
 			<main>
 				<HeroComponent />
 				<AboutComponent />
