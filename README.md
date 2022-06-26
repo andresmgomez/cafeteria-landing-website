@@ -18,7 +18,7 @@ An stylish design for a deluxe local cafeteria that uses Bootstrap for its prima
 - [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Bootstrap v4.5 Layout
 - [Fontawesome](https://fontawesome.com/v4/icons/) - Fontawesome v4.7 Font Icons
 
-### CSS Animations
+### JavaScript Animations
 
 - [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) - Scrolling Cubic Effect
 - [Sick Slider](http://kenwheeler.github.io) - Slider Images Effect
